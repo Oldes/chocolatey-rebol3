@@ -7,7 +7,8 @@
     <title>Rebol3</title>
     <authors>Oldes</authors>
     <projectUrl>https://github.com/Oldes/Rebol3</projectUrl>
-    <iconUrl>https://github.com/Oldes/Rebol3/raw/master/make/icon/r3_256.png</iconUrl>
+    <packageSourceUrl>https://github.com/Oldes/chocolatey-rebol3</packageSourceUrl>
+    <iconUrl>https://github.com/Oldes/Rebol3/raw/master/make/icon/r3_128.png</iconUrl>
     <licenseUrl>https://github.com/Oldes/Rebol3/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/Oldes/Rebol3</projectSourceUrl>
