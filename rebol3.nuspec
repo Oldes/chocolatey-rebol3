@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>rebol3</id>
+    <version>3.3.0</version>
+    <title>Rebol3</title>
+    <authors>Oldes</authors>
+    <projectUrl>https://github.com/Oldes/Rebol3</projectUrl>
+    <iconUrl>https://github.com/Oldes/Rebol3/raw/master/make/icon/r3_256.png</iconUrl>
+    <licenseUrl>https://github.com/Oldes/Rebol3/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/Oldes/Rebol3</projectSourceUrl>
+    <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
+    <!--<mailingListUrl></mailingListUrl>-->
+    <bugTrackerUrl>https://github.com/Oldes/Rebol-issues/issues</bugTrackerUrl>
+    <tags>rebol rebol3 scripting programming language</tags>
+    <summary>Rebol3 version from Oldes as the last maintainer (probably)</summary>
+    <description>
+      This Rebol version is based of now supposed to be dead [RebolSource community](https://github.com/rebolsource/r3) version, which was based on even older Carl Sassenrath's original [Rebol3-alpha](https://github.com/rebol/rebol) version.
+
+      Main focus (so far) was to make Rebol stable enough to handle building process of [Samorost2](https://amanita-design.net/games/samorost-2.html) game (remastered version of old Flash game from year 2005).
+    </description>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
