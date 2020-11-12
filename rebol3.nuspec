@@ -6,12 +6,12 @@
     <version>3.3.0</version>
     <title>Rebol3</title>
     <authors>Oldes</authors>
-    <projectUrl>https://github.com/Oldes/Rebol3</projectUrl>
+    <projectUrl>https://oldes.github.io/Rebol3/</projectUrl>
+    <projectSourceUrl>https://github.com/Oldes/Rebol3</projectSourceUrl>
     <packageSourceUrl>https://github.com/Oldes/chocolatey-rebol3</packageSourceUrl>
     <iconUrl>https://github.com/Oldes/Rebol3/raw/master/make/icon/r3_128.png</iconUrl>
     <licenseUrl>https://github.com/Oldes/Rebol3/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <projectSourceUrl>https://github.com/Oldes/Rebol3</projectSourceUrl>
     <!--<docsUrl>At what url are the software docs located?</docsUrl>-->
     <!--<mailingListUrl></mailingListUrl>-->
     <bugTrackerUrl>https://github.com/Oldes/Rebol-issues/issues</bugTrackerUrl>
