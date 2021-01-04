@@ -5,7 +5,7 @@ This repo contains source for Cocolatey's [Rebol3 package](https://chocolatey.or
 ### Notes what to do to upgrade version:
 
 1. edit `tools\chocolateyinstall.ps1` with links to new binaries and checksums
-2. change version number in `rebol3.nuspec`
+2. change version number in `rebol3.nuspec` and in `tools\VERIFICATION.txt`
 3. use: `choco pack rebol3.nuspec`
 4. use: `choco push rebol3.$VERSION.nupkg`
 5. push changes to git
