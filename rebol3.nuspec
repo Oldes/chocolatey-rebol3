@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>rebol3</id>
-    <version>3.4.0</version>
+    <version>3.5.0</version>
     <title>Rebol3</title>
     <authors>Carl Sassenrath and Rebol Open Source Contributors</authors>
     <projectUrl>https://oldes.github.io/Rebol3/</projectUrl>
@@ -19,8 +19,6 @@
     <summary>Rebol3 version from Oldes as the last maintainer (probably)</summary>
     <description>
       This Rebol version is based of now supposed to be dead [RebolSource community](https://github.com/rebolsource/r3) version, which was based on even older Carl Sassenrath's original [Rebol3-alpha](https://github.com/rebol/rebol) version.
-
-      Main focus (so far) was to make Rebol stable enough to handle building process of [Samorost2](https://amanita-design.net/games/samorost-2.html) game (remastered version of old Flash game from year 2005).
     </description>
     <releaseNotes>
       This is first Chocolatey release, please check https://github.com/Oldes/Rebol3/blob/master/CHANGES.md to see list of changes against the [RebolSource community](https://github.com/rebolsource/r3) version.
