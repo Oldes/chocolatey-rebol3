@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>rebol3</id>
-    <version>3.5.6</version>
+    <version>3.6.0</version>
     <title>Rebol3</title>
     <authors>Carl Sassenrath and Rebol Open Source Contributors</authors>
     <projectUrl>https://oldes.github.io/Rebol3/</projectUrl>
