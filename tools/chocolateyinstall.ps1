@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop';
 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://github.com/Oldes/Rebol3/releases/download/3.8.0/rebol3-bulk-windows-x86.exe'
-$url64      = 'https://github.com/Oldes/Rebol3/releases/download/3.8.0/rebol3-bulk-windows-x64.exe'
+$url        = 'https://github.com/Oldes/Rebol3/releases/download/3.9.0/rebol3-bulk-windows-x86.exe'
+$url64      = 'https://github.com/Oldes/Rebol3/releases/download/3.9.0/rebol3-bulk-windows-x64.exe'
 
 $packageArgs = @{
   packageName   = 'rebol3'
@@ -14,9 +14,9 @@ $packageArgs = @{
 
   softwareName  = 'rebol3*'
 
-  checksum      = 'C1185F66B05EB36A48C800778421F0C71C5CA8C87F91B82DFD1B4D47B6884A89'
+  checksum      = '37B2431AEEAB99CE65876821D9A22BB4785ABF22B34F2236E02CB438CF00D30F'
   checksumType  = 'sha256' #default is md5, can also be sha1, sha256 or sha512
-  checksum64    = '66B2BF568FA13B62005F20E63993FD8682F2F299E2EB42BA0B61B3EFBAD01D59'
+  checksum64    = '52F6B4DF2CBFDD18B87D27CC035BC1304A5EE1BAE35C7893B6BDC2370295A7D1'
   checksumType64= 'sha256' #default is checksumType
 
 }
