@@ -10,15 +10,14 @@ $packageArgs = @{
   fileType      = 'EXE'
   url           = $url
   url64bit      = $url64
-  fileFullPath = Join-Path $toolsDir 'rebol3.exe'
+  fileFullPath  = Join-Path $toolsDir 'rebol3.exe'
 
   softwareName  = 'rebol3*'
 
   checksum      = 'b407be7435588d51236bb45cad97720f163d7ed345ffc8c5eae44a095174fb9b'
-  checksumType  = 'sha256' #default is md5, can also be sha1, sha256 or sha512
+  checksumType  = 'sha256'
   checksum64    = 'adae37077b4527ab14d5aa9751a983f1dfdde38174f341c5ab1009f08bdf5741'
-  checksumType64= 'sha256' #default is checksumType
-
+  checksumType64= 'sha256'
 }
 
-Get-ChocolateyWebFile $packageName -FileFullPath "$toolsDir\rebol3.exe" $url $url64
+Get-ChocolateyWebFile @packageArgs

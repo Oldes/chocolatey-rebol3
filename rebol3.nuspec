@@ -18,10 +18,24 @@
     <tags>rebol rebol3 scripting programming language</tags>
     <summary>Rebol3 version from Oldes as the last maintainer (probably)</summary>
     <description>
-      This Rebol version is based of now supposed to be dead [RebolSource community](https://github.com/rebolsource/r3) version, which was based on even older Carl Sassenrath's original [Rebol3-alpha](https://github.com/rebol/rebol) version.
+      Rebol3 is an advanced scripting language designed for lightweight, cross-platform programming, rapid application prototyping, and efficient network communication tasks. This release is maintained by Oldes, building upon the original work of Carl Sassenrath and contributions from the Rebol open source community. Rebol3 emphasizes expressiveness, compact syntax, and portability, making it suitable for system automation, data manipulation, GUI development, and more.
+
+      This package delivers the latest community-enhanced build, based on legacy sources from the RebolSource and Rebol3-alpha repositories, ensuring continued support and modern improvements. The project includes ongoing bug fixes, performance optimizations. Active issue tracking, and source code access are available via the GitHub repositories.
+
+      For full change history, see the [CHANGES.md](https://github.com/Oldes/Rebol3/blob/master/CHANGES.md) file. Source and package maintenance are hosted publicly.
     </description>
     <releaseNotes>
-      This is first Chocolatey release, please check https://github.com/Oldes/Rebol3/blob/master/CHANGES.md to see list of changes against the [RebolSource community](https://github.com/rebolsource/r3) version.
+      Rebol3 v3.20.0 introduces major improvements in language security, performance, Unicode support, and complex data handling.
+
+      Key highlights:
+      - TLS v1.3 protocol support and advanced RSA encryption for more secure network operations.
+      - UTF-8 internal string encoding and extensive Unicode bug fixes for robust modern text handling.
+      - Vector datatype overhaul: supports new math, logical, and statistical operations, with increased performance and flexibility.
+      - Struct datatype completely reimplemented for more reliable binary data management.
+      - Many improvements and bug fixes in block, pair, series, and binary operations.
+      - Enhanced scripting experience, including easier color mode control, prime number testing, and Braille text codec.
+
+      See the full change log and detailed feature list in the GitHub release: https://github.com/Oldes/Rebol3/releases/tag/3.20.0
     </releaseNotes>
   </metadata>
   <files>
